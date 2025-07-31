@@ -1,5 +1,5 @@
 
-# Supabase + React (JSX) CRUD + RLS Cheat Sheet
+# Supabase + RLS Cheat Sheet
 
 ## Setup
 
