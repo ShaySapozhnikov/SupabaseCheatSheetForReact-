@@ -1,5 +1,5 @@
 
-# Supabase + RLS Cheat Sheetz
+# Supabase + RLS Cheat Sheet for react 
 
 Wanted to create an easy cheat sheet for Supabase so you (or I) don’t need to run to the documentation every time
 
