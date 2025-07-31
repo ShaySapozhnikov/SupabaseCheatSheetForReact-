@@ -149,5 +149,26 @@ await supabase
 ```
 
 ---
+## Supabase Auth Basic Example
+```jsx
+async function signIn(email, password) {
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password })
+  if (error) {
+    console.error('Login error:', error.message)
+  } else {
+    console.log('User signed in:', data.user)
+  }
+}
+```
 
-If you want a full React component example or help setting up policies, just ask!
+Get current user
+```jsx
+const user = supabase.auth.user()
+console.log('Current user:', user)
+```
+
+---
+
+
+
+
